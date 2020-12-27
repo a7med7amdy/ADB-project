@@ -10,3 +10,6 @@ if you work with linux OS, run these commands to install mysql client server for
  
  for windows, actually, I don't know.
  
+# bank schema
+
+![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20200616154309/bank.png)
