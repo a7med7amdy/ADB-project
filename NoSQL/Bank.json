@@ -1,0 +1,99 @@
+{
+  "Bank_code" :125,
+  "Address": "Bank Address",
+  "Name": "Bank Name", 
+  "Branches":[{
+    "Branch_id": 1258,
+    "Address": "Branch Address",
+    "Name": "Branch Name",
+    "Accounts":
+      [ {
+		  "Account_No": 45,
+		  "Acc_Type":7,
+		  "Balance":  0
+		},
+	    {
+	      "Account_No": 55,
+		  "Acc_Type":4,
+		  "Balance":  1
+		}
+	   ]
+	  
+    ,
+    "Loans":
+      [
+	  {"Loan_id": 1,
+      "Loan_type":2,
+      "Amount":13 
+	  },
+	  {"Loan_id": 125,
+      "Loan_type":5,
+      "Amount":18 
+	  }
+	]	  
+      
+  },
+  {
+    "Branch_id": 12888,
+    "Address": "Branch2 Address",
+    "Name": "Branch2 Name",
+    "Accounts": 
+      [ {
+		  "Account_No": 425,
+		  "Acc_Type":37,
+		  "Balance":  30
+		},
+	    {
+	      "Account_No": 535,
+		  "Acc_Type":42,
+		  "Balance":  31
+		}
+	   ]
+	  
+    ,
+    "Loans":
+      [
+	  {"Loan_id": 41,
+      "Loan_type":23,
+      "Amount":143 
+	  },
+	  {"Loan_id": 1245,
+      "Loan_type":35,
+      "Amount":138 
+	  }
+	]	      
+  }]
+  
+}
+
+{
+	"Customer_ID": 111,
+	"Name": "Customer Name",
+	"Phone Number": 011111111,
+	"Address": "Address of the customer",
+	"Accounts": 
+      [ {
+		  "Account_No": 425,
+		  "Acc_Type":37,
+		  "Balance":  30
+		},
+	    {
+	      "Account_No": 535,
+		  "Acc_Type":42,
+		  "Balance":  31
+		}
+	   ]
+	  
+    ,
+    "Loans":
+      [
+	  {"Loan_id": 41,
+      "Loan_type":23,
+      "Amount":143 
+	  },
+	  {"Loan_id": 1245,
+      "Loan_type":35,
+      "Amount":138 
+	  }
+	]
+}
