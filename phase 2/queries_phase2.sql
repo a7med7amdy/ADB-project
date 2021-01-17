@@ -39,3 +39,6 @@ INNER JOIN (SELECT Acc_no, cust_no from Hold_by) h on c.Customer_ID=h.cust_no)
 INNER JOIN (select Account_No,Balance from Account) a on a.Account_No=h.Acc_no;
 ------------------------ end -------------------------------------------------
 
+-- queries for index tuning
+select * from loan where Amount Between 5 and 10000 And Loan_type = 1;
+select * from bank , branch where (branch.Name = "branch_11" or branch.Address = "cairo,street 1000") and bank.Bank_code = branch.Bank_code;
